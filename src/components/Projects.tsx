@@ -4,18 +4,18 @@ import { Github, Globe, Linkedin, Mail, Smartphone, ExternalLink } from "lucide-
 
 const projects = [
     {
-      title: 'E-commerce Dashboard',
-      description: 'Dashboard administrativo completo para e-commerce com análises em tempo real, gestão de produtos e vendas.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop',
-      tech: ['React', 'Next.js', 'TypeScript', 'Tailwind'],
-      github: '#',
-      live: '#'
+      title: 'PetCareConnect',
+      description: 'Sistema de login/cadastro e agendamento de consultas com veterinários.',
+      image: '/imgs/petcare.png',
+      tech: ['React', 'Node.js', 'APIRest', 'Tailwind'],
+      github: 'https://github.com/PedroCirotto/PetCareConnect',
+      live: 'https://pet-care-connect-eta.vercel.app/'
     },
     {
-      title: 'App de Delivery',
+      title: 'Peakone',
       description: 'Aplicação web responsiva para delivery de comida com carrinho, pagamentos e tracking de pedidos.',
       image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop',
-      tech: ['React', 'Redux', 'Styled Components', 'API REST'],
+      tech: ['Astro', 'Tailwind'],
       github: '#',
       live: '#'
     },
@@ -48,10 +48,10 @@ export default function Projects() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-4">
                   <div className="flex space-x-3">
-                    <a href={project.github} className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition-colors">
+                    <a href={project.github} target="_blank" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition-colors">
                       <Github size={20} className="text-white" />
                     </a>
-                    <a href={project.live} className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition-colors">
+                    <a href={project.live} target="_blank" className="p-2 bg-white/20 rounded-full hover:bg-white/30 transition-colors">
                       <ExternalLink size={20} className="text-white" />
                     </a>
                   </div>
