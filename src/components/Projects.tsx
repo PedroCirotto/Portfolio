@@ -13,17 +13,17 @@ const projects = [
     },
     {
       title: 'Peakone',
-      description: 'Aplicação web responsiva para delivery de comida com carrinho, pagamentos e tracking de pedidos.',
+      description: 'Site portfolio para empresa de Ecommerce com animações avançadas e galeria de projetos.',
       image: 'https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop',
       tech: ['Astro', 'Tailwind'],
       github: '#',
       live: '#'
     },
     {
-      title: 'Portfolio Criativo',
+      title: 'Em construção',
       description: 'Site portfolio para designer com animações avançadas e galeria interativa de projetos.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop',
-      tech: ['Next.js', 'Framer Motion', 'Tailwind', 'Sanity CMS'],
+      image: 'https://images.unsplash.om/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop',
+      tech: ['Next.js', 'Tailwind', "GTM", "GA - Google Analytics"],
       github: '#',
       live: '#'
     }

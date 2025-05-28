@@ -27,9 +27,8 @@ const Hero = () => {
   };
 
   return (
-    <div >
-      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-pink-600/20"></div>
+    <div>
+      <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-r from-purple-600/20 to-pink-600/20">
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
@@ -78,8 +77,8 @@ const Hero = () => {
         <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ChevronDown className="text-white/60" size={32} />
         </div>
-      </section>
 
+      </section>
     </div>
   );
 };
