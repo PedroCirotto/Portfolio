@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
               <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-                <span className="text-4xl font-bold text-white">JS</span>
+                <img className="w-full h-full rounded-full z-30" src="/imgs/fotoperfil.jpg" alt="" />
               </div>
             </div>
           </div>
