@@ -26,7 +26,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-semibold">Email</h3>
-                                    <p className="text-gray-300">joao.dev@email.com</p>
+                                    <p className="text-gray-300">pedrodev44@gmail.com</p>
                                 </div>
                             </div>
 
@@ -36,7 +36,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-semibold">LinkedIn</h3>
-                                    <p className="text-gray-300">linkedin.com/in/joao-dev</p>
+                                    <p className="text-gray-300">h/in/pedro-henrique-cirotto/</p>
                                 </div>
                             </div>
 
@@ -46,7 +46,7 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h3 className="text-white font-semibold">GitHub</h3>
-                                    <p className="text-gray-300">github.com/joao-dev</p>
+                                    <p className="text-gray-300">github.com/PedroCirotto</p>
                                 </div>
                             </div>
                         </div>
