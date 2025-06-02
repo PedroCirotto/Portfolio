@@ -31,9 +31,9 @@ const Hero = () => {
       <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-r from-purple-600/20 to-pink-600/20">
         <div className="container mx-auto px-6 text-center relative z-10">
           <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
+            <div className="w-52 h-52 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
               <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-                <img className="w-full h-full rounded-full z-30" src="/imgs/fotoperfil.jpg" alt="" />
+                <img className="w-full h-full rounded-full z-30" src="/imgs/pedro.jpg" alt="" />
               </div>
             </div>
           </div>
