@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="mb-8">
             <div className="w-52 h-52 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
               <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center">
-                <img className="w-full h-full rounded-full z-30" src="/imgs/pedro.jpg" alt="" />
+                <img className="w-full h-full rounded-full z-30 object-cover" src="/imgs/pedro.jpg" alt="" />
               </div>
             </div>
           </div>
