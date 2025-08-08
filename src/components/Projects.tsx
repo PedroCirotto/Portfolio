@@ -14,7 +14,7 @@ const projects = [
     {
       title: 'Peakone',
       description: 'Site portfolio para empresa de Ecommerce.',
-      image: 'https://peakonedev.com/',
+      image: '/imgs/peakone.png',
       tech: ['Next.js', 'Tailwind', "GTM", "GA - Google Analytics"],
       github: '#',
       live: 'https://peakonedev.com/'
