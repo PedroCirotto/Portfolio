@@ -42,11 +42,6 @@ export default function About() {
                                 <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm">TypeScript</span>
                                 <span className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm">Tailwind</span>
                             </div>
-
-                            <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/25 transition-all">
-                                <Download size={20} />
-                                Download CV
-                            </button>
                         </div>
 
                         <div className="space-y-6">
