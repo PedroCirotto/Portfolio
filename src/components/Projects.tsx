@@ -17,7 +17,7 @@ const projects = [
       image: 'https://peakonedev.com/',
       tech: ['Next.js', 'Tailwind', "GTM", "GA - Google Analytics"],
       github: '#',
-      live: '#'
+      live: 'https://peakonedev.com/'
     },
     {
       title: 'Em construção',
